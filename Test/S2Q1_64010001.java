@@ -6,7 +6,6 @@ public class S2Q1_64010001 {
         System.out.print("Input size of matrix: ");
         int n = in.nextInt();
         if (n > 2) {
-
             int[][] a = new int[n][n];
             int max = 0;
             int imax = 0;
@@ -84,7 +83,7 @@ public class S2Q1_64010001 {
                 System.out.println();
             System.out.println("End of program.");
         } else {
-            System.out.println("Error::Cannot Make the matrix ,Please Enter Size more than 3");
+            System.out.println("Error::Cannot Make the matrix, Size can be 3 or more");
         }
         in.close();
     }
