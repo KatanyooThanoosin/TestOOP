@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class R2Q2 {
+public class R123Q2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[][] a = {{"a","b","c","d","e","f","g","h","i","j"},{"0","1","2","3","4","5","6","7","8","9"}};
