@@ -86,4 +86,12 @@ public class TV {
     public double getArea(){
         return this.height*this.width;
     }
+
+    public String toString() {
+        return "TV{height="+this.height+
+        ",width="+this.width+
+        ",isTurnOn="+this.isTurnOn+
+        ",channel="+this.channel+
+        ",MAX_CHANNELS="+MAX_CHANNELS+"} ";
+    }
 }
